@@ -10,7 +10,7 @@
 */
 
 //CODE HERE
-
+const gitDefinition = "version ctrl"
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,7 +18,7 @@
 */
 
 //CODE HERE
-
+const gitHubDefinition = 'online repository storage'
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
     For the next several problems you will be creating objects containing information about different git 
@@ -34,7 +34,10 @@
 */
 
 //CODE HERE
-
+let init ={
+    description: "start repo",
+    code: "git init",
+}
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -42,6 +45,11 @@
 */
 
 //CODE HERE
+let clone = {
+    description: "download repo",
+    code: "git clone <url>"
+}
+
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -50,7 +58,10 @@
 */
 
 //CODE HERE
-
+let status = {
+    description: 'tells how files have been modified, commited',
+    code: "git status"
+}
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -58,6 +69,10 @@
 */
 
 //CODE HERE
+let add ={
+    description: "stages files, prepares them to be commited",
+    code: "git add . or git add <filename>"
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -66,7 +81,10 @@
 */
 
 //CODE HERE
-
+let commit = {
+    description:"saves changes, with a comment",
+    code: "git commit -m"
+}
 //////////////////PROBLEM 8////////////////////
 /*
     Create an object called 'addRemote' with 'description' and 'code' properties
@@ -74,7 +92,10 @@
 */
 
 //CODE HERE
-
+let addRemote = {
+    description: "adds a remote repository to push to",
+    code: "git remote add origin"
+}
 //////////////////PROBLEM 9////////////////////
 /*
     Create an object called 'push' with 'description' and 'code' properties 
@@ -82,3 +103,7 @@
 */
 
 //CODE HERE
+let push = {
+    description: "uploads repo to github",
+    code: 'git push origin'
+}

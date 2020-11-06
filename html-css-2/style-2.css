@@ -1,0 +1,160 @@
+header {
+    background-color: cyan;
+    height: 10vh;
+    width: 100vw;
+    font-size: 30px;
+    line-height: 10vh;
+    padding-left: 10px;
+    text-align: left;
+}
+body {
+    height: 60vh;
+    background-color:white;
+    margin: 0;
+    padding: 0;}
+p{
+    font-weight: 600;
+    font-size: 20px;
+    padding-left: 10px;
+    margin-bottom: -1px;
+}
+
+.padding {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 100%;
+    border: 1px dotted black;
+    padding: 10px ;
+}
+
+
+#part1 {    
+    height: 25%; 
+    display: flex;
+    align-items: flex-end;  
+}
+.rect{
+    background-color: purple;
+    border: 1px solid red;
+    height:50px;
+    width: 150px ;
+
+}
+.square {
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    box-shadow: 5px 5px 3px #888888;
+    border-radius: 0%;
+    
+
+}
+.pinksq {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    margin-left: 10px;
+    border: 1px solid black;
+}
+
+#part2 {   
+    height: 50%;
+    }
+.circles {
+    border: 1px solid black;
+    border-radius: 100%;
+    box-sizing: 1px;
+}
+#circle1{
+    height: 60px;
+    width: 60px;
+    margin-left:15px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.coal{
+    background-color: black;
+    border-radius: 76%;
+    height: 10px;
+    width: 10px;
+    margin: 5px;
+        
+}
+.carrot {
+    height: 10px;
+    width: 10px;
+    margin: 5px;
+}
+.face {
+    display: flex;
+    flex-direction: row;
+}
+#circle2{
+
+    height: 80px;
+    width: 80px;
+    margin-left:5px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#circle3{
+    height: 90px;
+    width: 90px;
+}
+#part3 {    
+    height: 25%;
+}
+.yellowsquare {
+    background-color: lightyellow;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    z-index: 1;
+}
+.greencircle {
+    background-color: green;
+    border-radius: 100%;
+    border: 1px solid black;
+    width: 80px;
+    height: 80px;    
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.redsquare {
+    background-color: maroon;
+    width: 50px;
+    height: 50px;   
+    z-index: 3;
+    font-size: 8px;
+    text-align: center;
+    color:white;
+}
+.bluecircle {
+    background-color: blue;
+    border-radius: 100%;    
+    width: 40px;
+    height: 40px;
+    z-index: 4; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.fish{
+    background-color: blue;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;  
+    z-index: 5;
+    clear: both;
+}
